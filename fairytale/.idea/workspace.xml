@@ -1,0 +1,1069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34581b8b-d1c9-47e0-9c6f-eef2ba11fc46" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fairytalener/Evaluation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1227">
+              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baseline_development.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partial_baseline_train.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partial_baseline_development.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pH_baseline_development.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pH_baseline_train.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fairytalener/rulebase/Rule2VAHA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="185" column="10" selection-start-line="185" selection-start-column="10" selection-end-line="185" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fairytalener/baseline/Baseline.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/evaluation3_ph/pH_train132.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>1.</find>
+      <find>Beatrix</find>
+      <find>flower</find>
+      <find>Sombody</find>
+      <find>drag</find>
+      <find>repl</find>
+      <find>shout</find>
+      <find>buzz</find>
+      <find>System</find>
+      <find>King</find>
+      <find>Camaralzaman</find>
+      <find>Prince Camaralzaman</find>
+      <find>King Camaralzaman</find>
+      <find>Prince</find>
+      <find>the Princess Badoura</find>
+      <find>Sys</find>
+      <find>Syst</find>
+      <find>SO</find>
+      <find>THEN</find>
+      <find>SOMETIMES</find>
+      <find>SOMETIMES P</find>
+      <find>Peter Rabbit</find>
+      <find>Peter</find>
+      <find>old</find>
+      <find>someone</find>
+      <find>OLD</find>
+      <find>not</find>
+      <find>jeremy</find>
+      <find>Mr.</find>
+      <find>Mrs.</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/resources/Data/baselineresults/grimm</dir>
+      <dir>$PROJECT_DIR$/src/main/resources/Data/corpus</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/Data/corpus/annotate/data/raeeha/annotations/134207967-KING-CANDAULES-AND-THE-DOCTOR-OF-LAWS-La-Fontain.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/corpus/annotate/data/raeeha/annotations/178514184-ANNE-LISBETH-H-C-Andersen.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/corpus/annotate/data/raeeha/annotations/183884177-HOW-THE-RAJA-S-SON-WON-THE-PRINCESS-LABAM-Indian-Writer.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/corpus/annotate/data/unaiza/105820506-JACK-THE-DULLARD-AN-OLD-STORY-TOLD-ANEW-H-C-Andersen.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/corpus/annotate/data/unaiza/124337636-THE-LOSS-OF-THE-TALISMAN-Arabian-Writer.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/corpus/annotate/data/unaiza/149144903-HOW-THE-WICKED-SONS-WERE-DUPED-Indian-Writer.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/corpus/annotate/data/unaiza/164399432-THE-TALE-OF-MR.-JEREMY-FISHER-Beatrix-Potter.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/corpus/annotate/data/unaiza/187655076-THE-TALE-OF-THE-FLOPSY-BUNNIES-Beatrix-Potter.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/corpus/annotate/data/unaiza/800913321-PRINCE-BEDER-AND-THE-PRINCESS-GIAUHARA-Arabian-Writer.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/corpus/annotate/data/unaiza/858407753-THE-TALE-OF-TIMMY-TIPTOES-Beatrix-Potter.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/corpus/annotate/data/unaiza/937613071-THE-STORY-OF-THE-KING-S-SON-Arabian-Writer.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/corpus/annotate/data/unaiza/968035575-THE-TALE-OF-PETER-RABBIT-BY-BEATRIX-POTTER-Beatrix-Potter.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/properties.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/corpus/train/33938221-FERONDE-La-Fontain.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/corpus/train/34204349-The-Wolf-and-the-Seven-Little-Kids-Brothers-Grimm.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/corpus/development/33648461-A-LAC-OF-RUPEES-FOR-A-BIT-OF-ADVICE-Indian-Writer.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/baselineresults/train/33938221-FERONDE-La-Fontain.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/corpus/annotate/data/unaiza/annotations/92859172-THE-SECOND-VOYAGE-OF-SINBAD-THE-SAILOR-Arabian-Writer.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/corpus/annotate/data/unaiza/annotations/149144903-HOW-THE-WICKED-SONS-WERE-DUPED-Indian-Writer.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/corpus/annotate/data/unaiza/annotations/164399432-THE-TALE-OF-MR.-JEREMY-FISHER-Beatrix-Potter.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/corpus/annotate/data/unaiza/annotations/800913321-PRINCE-BEDER-AND-THE-PRINCESS-GIAUHARA-Arabian-Writer.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/corpus/annotate/data/unaiza/annotations/858407753-THE-TALE-OF-TIMMY-TIPTOES-Beatrix-Potter.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/corpus/annotate/data/unaiza/annotations/937613071-THE-STORY-OF-THE-KING-S-SON-Arabian-Writer.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/corpus/annotate/data/unaiza/annotations/968035575-THE-TALE-OF-PETER-RABBIT-BY-BEATRIX-POTTER-Beatrix-Potter.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/corpus/annotate/data/unaiza/92859172-THE-SECOND-VOYAGE-OF-SINBAD-THE-SAILOR-Arabian-Writer.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/corpus/annotate/data/unaiza/annotations/105820506-JACK-THE-DULLARD-AN-OLD-STORY-TOLD-ANEW-H-C-Andersen.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fairytalener/utilities/SentenceProperty.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fairytalener/utilities/FileUtilities.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/corpus/annotate/data/unaiza/annotations/124337636-THE-LOSS-OF-THE-TALISMAN-Arabian-Writer.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fairytalener/rulebase/VAHA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fairytalener/rulebase/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/corpus/annotate/data/unaiza/annotations/187655076-THE-TALE-OF-THE-FLOPSY-BUNNIES-Beatrix-Potter.txt" />
+        <option value="$PROJECT_DIR$/baseline_evaluation.csv" />
+        <option value="$PROJECT_DIR$/evaluation.csv" />
+        <option value="$PROJECT_DIR$/evaluation2.csv" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/JWNUtilityTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/fairtalener/rulebase/JWNUtilityTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fairytalener/rulebase/JWNLUtility.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/corpus/annotate/data/all/73815936-NINETEENTH-EVENING-H-C-Andersen.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fairytalener/utilities/DataAnalysis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fairytalener/utilities/Utility.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/fairytalener/utilities/UtilityTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fairytalener/utilities/StanfordParser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/fairytalener/utilities/StanfordParserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fairytalener/rulebase/Rule3NNP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fairytalener/rulebase/FTNamedEntityRecognizer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fairytalener/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fairytalener/rulebase/Rule2VAHA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fairytalener/baseline/Baseline.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fairytalener/Evaluation.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fairytale" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fairytale" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fairytale" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fairytale" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fairytale" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fairytale" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fairytale" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fairytale" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fairytale" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fairytale" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fairytalener" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fairytale" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fairytale" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fairytalener" type="462c0819:PsiDirectoryNode" />
+              <item name="baseline" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fairytale" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fairytale" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fairytalener" type="462c0819:PsiDirectoryNode" />
+              <item name="rulebase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fairytale" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fairytale" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fairytale" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fairytale" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fairytale" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fairytale" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="baseline" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fairytale" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fairytale" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="baseline" type="462c0819:PsiDirectoryNode" />
+              <item name="train" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554821813383" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.fairytalener.utilities" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/evaluation2_partial" />
+      <recent name="$PROJECT_DIR$/evaluation3_ph" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Data/Output/train" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Data/baseline/train" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Data/baseline" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/Data/corpus/all" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Data/corpus/beatrixPotter" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Data/corpus/Arabian" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Data/corpus/hcAnderson" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Data/corpus/grimms" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Evaluation">
+    <configuration name="Baseline" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fairytalener.baseline.Baseline" />
+      <module name="fairytale" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fairytalener.baseline.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Evaluation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fairytalener.Evaluation" />
+      <module name="fairytale" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fairytalener.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fairytalener.Main" />
+      <module name="fairytale" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StanfordParserTest.getHeadPhrase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fairytale" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fairytalener.utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fairytalener.utilities" />
+      <option name="MAIN_CLASS_NAME" value="com.fairytalener.utilities.StanfordParserTest" />
+      <option name="METHOD_NAME" value="getHeadPhrase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StanfordParserTest.getNouns" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fairytale" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fairytalener.utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fairytalener.utilities" />
+      <option name="MAIN_CLASS_NAME" value="com.fairytalener.utilities.StanfordParserTest" />
+      <option name="METHOD_NAME" value="getNouns" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="main" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Evaluation" />
+      <item itemvalue="JUnit.StanfordParserTest.getNouns" />
+      <item itemvalue="JUnit.StanfordParserTest.getHeadPhrase" />
+      <item itemvalue="Application.Baseline" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Evaluation" />
+        <item itemvalue="Application.Baseline" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.StanfordParserTest.getHeadPhrase" />
+        <item itemvalue="JUnit.StanfordParserTest.getNouns" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34581b8b-d1c9-47e0-9c6f-eef2ba11fc46" name="Default Changelist" comment="" />
+      <created>1549921214703</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549921214703</updated>
+      <workItem from="1549921217750" duration="1280000" />
+      <workItem from="1549922672275" duration="1334000" />
+      <workItem from="1549924172151" duration="7610000" />
+      <workItem from="1549947256948" duration="248000" />
+      <workItem from="1550100007940" duration="16268000" />
+      <workItem from="1550165035024" duration="119000" />
+      <workItem from="1550181453836" duration="835000" />
+      <workItem from="1551133759680" duration="6008000" />
+      <workItem from="1551147165918" duration="595000" />
+      <workItem from="1551149585743" duration="2876000" />
+      <workItem from="1551203832968" duration="130000" />
+      <workItem from="1551205743254" duration="26000" />
+      <workItem from="1551309251026" duration="16734000" />
+      <workItem from="1551393341396" duration="2338000" />
+      <workItem from="1551500094088" duration="530000" />
+      <workItem from="1551553524077" duration="882000" />
+      <workItem from="1551571923390" duration="339000" />
+      <workItem from="1551631794836" duration="35000" />
+      <workItem from="1551639111651" duration="1168000" />
+      <workItem from="1551654779620" duration="4410000" />
+      <workItem from="1551981310866" duration="12464000" />
+      <workItem from="1552006262054" duration="2499000" />
+      <workItem from="1552163602651" duration="4486000" />
+      <workItem from="1552281449064" duration="145000" />
+      <workItem from="1552345604878" duration="25503000" />
+      <workItem from="1552513152872" duration="1320000" />
+      <workItem from="1552523960055" duration="14244000" />
+      <workItem from="1553282583460" duration="49000" />
+      <workItem from="1554283989262" duration="2913000" />
+      <workItem from="1554334548910" duration="17468000" />
+      <workItem from="1554574829549" duration="3338000" />
+      <workItem from="1554719174340" duration="315000" />
+      <workItem from="1554809008791" duration="10970000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UtilityTest_isSubstring - 2019.04.09 at 06h 53m 52s.xml">
+      <configuration name="UtilityTest.isSubstring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilityTest_isSubstring - 2019.04.09 at 07h 00m 49s.xml">
+      <configuration name="UtilityTest.isSubstring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilityTest_isSubstring - 2019.04.09 at 07h 00m 59s.xml">
+      <configuration name="UtilityTest.isSubstring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StanfordParserTest_getNouns - 2019.04.09 at 07h 32m 02s.xml">
+      <configuration name="StanfordParserTest.getNouns" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StanfordParserTest_getNouns - 2019.04.09 at 07h 33m 28s.xml">
+      <configuration name="StanfordParserTest.getNouns" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StanfordParserTest_getHeadPhrase - 2019.04.09 at 07h 39m 26s.xml">
+      <configuration name="StanfordParserTest.getHeadPhrase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StanfordParserTest_getHeadPhrase - 2019.04.09 at 07h 39m 44s.xml">
+      <configuration name="StanfordParserTest.getHeadPhrase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StanfordParserTest_getHeadPhrase - 2019.04.09 at 07h 40m 31s.xml">
+      <configuration name="StanfordParserTest.getHeadPhrase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StanfordParserTest_getHeadPhrase - 2019.04.09 at 07h 41m 02s.xml">
+      <configuration name="StanfordParserTest.getHeadPhrase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StanfordParserTest_getHeadPhrase - 2019.04.09 at 07h 43m 36s.xml">
+      <configuration name="StanfordParserTest.getHeadPhrase" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="159479000" />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3125894" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38915664" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32891566" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.32891566" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="SciView" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15236051" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28674698" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.32891566" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="SciView" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fairytalener/Main.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fairytalener/rulebase/Rule2VAHA.java</url>
+          <line>194</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fairytalener/Evaluation.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/fairytalener/utilities/StanfordParserTest.java</url>
+          <line>19</line>
+          <properties class="com.fairytalener.utilities.StanfordParserTest" method="getHeadPhrase">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Output/indian/88180281-THE-LAMBIKIN-Indian-Writer.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Output/hcanderson/73815936-NINETEENTH-EVENING-H-C-Andersen.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Output/hcanderson/105820506-JACK-THE-DULLARD-AN-OLD-STORY-TOLD-ANEW-H-C-Andersen.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Output/hcanderson/178514184-ANNE-LISBETH-H-C-Andersen.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Output/hcanderson/50311198-THE-OLD-BACHELOR-S-NIGHTCAP-H-C-Andersen.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Output/grimms/44557265-The-Wonderful-Musician-Brothers-Grimm.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Output/hcanderson/116932961-THE-WIND-TELLS-ABOUT-WALDEMAR-DAA-AND-HIS-DAUGHTERS-H-C-Andersen.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Output/train/33938221-FERONDE-La-Fontain.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Output/train/40117494-SISTER-JANE-La-Fontain.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Output/train/44557265-The-Wonderful-Musician-Brothers-Grimm.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Output/train/50311198-THE-OLD-BACHELOR-S-NIGHTCAP-H-C-Andersen.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Output/train/51121895-A-CONFIDANT-WITHOUT-KNOWING-IT-OR-THE-STRATAGEM-La-Fontain.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Output/train/75820575-THE-BOY-WHO-HAD-A-MOON-ON-HIS-FOREHEAD-AND-A-STAR-ON-HIS-CHIN-Indian-Writer.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/fairytalener/utilities/UtilityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Output/train/34204349-The-Wolf-and-the-Seven-Little-Kids-Brothers-Grimm.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation1_complete/lafountain.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fairytalener/utilities/StanfordParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="303" column="57" lean-forward="true" selection-start-line="303" selection-start-column="57" selection-end-line="303" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/fairytalener/utilities/StanfordParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/output.development/116932961-THE-WIND-TELLS-ABOUT-WALDEMAR-DAA-AND-HIS-DAUGHTERS-H-C-Andersen.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/output.development/62593047-THE-IMPOSSIBLE-THING-La-Fontain.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/output.development/858407753-THE-TALE-OF-TIMMY-TIPTOES-Beatrix-Potter.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/output.development/800913321-PRINCE-BEDER-AND-THE-PRINCESS-GIAUHARA-Arabian-Writer.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/output.development/93421159-Little-Brother-and-Little-Sister-Brothers-Grimm.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partial_1_development132.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/output.development/33648461-A-LAC-OF-RUPEES-FOR-A-BIT-OF-ADVICE-Indian-Writer.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fairytalener/rulebase/Rule3NNP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-281">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation1_complete/development_132.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fairytalener/rulebase/FTNamedEntityRecognizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fairytalener/utilities/Utility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation3_ph/pH_development132.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation2_partial/partial_baseline_dev.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fairytalener/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation3_ph/pH_test132.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation2_partial/partial_test132.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation2_partial/partial_development132.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation2_partial/partial_baseline_test.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation3_ph/pH_baseline_test.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation2_partial/partial_baseline_train.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation2_partial/partial_train132.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation3_ph/pH_baseline_train.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation3_ph/pH_train132.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baseline_train.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation1_complete/baseline.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pH_baseline_train.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fairytalener/rulebase/Rule2VAHA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="185" column="10" selection-start-line="185" selection-start-column="10" selection-end-line="185" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fairytalener/baseline/Baseline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baseline_development.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partial_baseline_train.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pH_baseline_development.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partial_baseline_development.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fairytalener/Evaluation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1227">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>fairytale</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

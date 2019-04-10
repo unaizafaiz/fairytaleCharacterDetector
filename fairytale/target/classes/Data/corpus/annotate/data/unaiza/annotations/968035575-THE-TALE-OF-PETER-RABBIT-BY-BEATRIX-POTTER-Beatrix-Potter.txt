@@ -1,0 +1,9 @@
+CHARACTER:
+Mrs. Rabbit
+Flopsy
+Mopsy
+Cotton-tail
+Peter
+Mr. McGregor
+old mouse
+white cat
