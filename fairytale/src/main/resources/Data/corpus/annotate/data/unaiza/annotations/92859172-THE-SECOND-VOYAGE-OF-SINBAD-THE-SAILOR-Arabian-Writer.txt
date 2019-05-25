@@ -1,4 +1,8 @@
 CHARACTER:
-
+merchants
+bird
+serpents
+Eagles
+Merchant
 
 

@@ -1,4 +1,6 @@
 CHARACTER:
-
-
-
+the merchants
+the bird
+the serpents
+the eagles
+the merchant

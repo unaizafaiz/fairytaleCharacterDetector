@@ -6,16 +6,15 @@ import com.fairytalener.rulebase.Rule3NNP;
 import com.fairytalener.utilities.FileUtilities;
 import com.fairytalener.utilities.StanfordParser;
 import com.fairytalener.utilities.Utility;
-import edu.stanford.nlp.io.EncodingPrintWriter;
 import edu.stanford.nlp.trees.Tree;
 import net.didion.jwnl.JWNL;
 import net.didion.jwnl.JWNLException;
 import net.didion.jwnl.data.PointerUtils;
 import net.didion.jwnl.data.Synset;
-
+import edu.stanford.nlp.io.EncodingPrintWriter;
+import java.util.HashMap;
 import java.io.*;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 public class Main {
@@ -26,9 +25,8 @@ public class Main {
         File folder = new File("src/main/resources/Data/corpus/Test");
         File[] files = folder.listFiles();
         for (File file : files) {
-
             FileUtilities utilities = new FileUtilities();
-         //   File file = new File("src/main/resources/Data/corpus/annotate/data/unaiza/187655076-THE-TALE-OF-THE-FLOPSY-BUNNIES-Beatrix-Potter.txt");
+            //File file = new File("src/main/resources/Data/corpus/annotate/data/unaiza/187655076-THE-TALE-OF-THE-FLOPSY-BUNNIES-Beatrix-Potter.txt");
             String story = utilities.readFile(file);
             StanfordParser stanfordParser = new StanfordParser();
             List<String> tokens = stanfordParser.tokenize(story);
@@ -43,7 +41,9 @@ public class Main {
             List<String> rule1_characters = ftNamedEntityRecognizer.nerCharRules();
             List<String> rule2_characters = rule2VAHA.rule2_humanActivityVerb(sentences, stanfordParser);
             List<String> rule3_characters = rule3NNP.findCharacters();
-
+            System.out.println("RULE 1: "+rule1_characters);
+           System.out.println("RULE 2: "+rule2_characters);
+            System.out.println("RULE 3: "+rule3_characters);
             Utility utility = new Utility();
              characters = utility.addToList(characters, rule1_characters);
              characters = utility.addToList(characters, rule3_characters);
@@ -62,7 +62,7 @@ public class Main {
 
     private static void ExtractAnimateBeings() {
         FileUtilities utilities = new FileUtilities();
-        File file = new File( "src/main/resources/Data/corpus/annotate/data/unaiza/187655076-THE-TALE-OF-THE-FLOPSY-BUNNIES-Beatrix-Potter.txt");
+        File file = new File( "src/main/resources/Data/corpus/EvaluationNN/data/unaiza/187655076-THE-TALE-OF-THE-FLOPSY-BUNNIES-Beatrix-Potter.txt");
         String story = utilities.readFile(file);
         StanfordParser stanfordParser = new StanfordParser();
         //List<String> sentences = stanfordParser.sentenceSplit(story);

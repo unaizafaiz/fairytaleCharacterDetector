@@ -1,9 +1,9 @@
 package com.fairytalener.utilities;
 
+import com.google.common.base.Functions;
+import com.google.common.base.Joiner;
+import com.google.common.collect.Lists;
 import edu.stanford.nlp.coref.data.CorefChain;
-import edu.stanford.nlp.coref.data.Document;
-import edu.stanford.nlp.coref.data.Mention;
-import edu.stanford.nlp.dcoref.CorefCoreAnnotations;
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreAnnotations.NamedEntityTagAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.PartOfSpeechAnnotation;
@@ -11,12 +11,11 @@ import edu.stanford.nlp.ling.CoreAnnotations.SentencesAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.TextAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.TokensAnnotation;
 import edu.stanford.nlp.ling.CoreLabel;
+import edu.stanford.nlp.ling.LabeledWord;
 import edu.stanford.nlp.ling.tokensregex.TokenSequenceMatcher;
 import edu.stanford.nlp.ling.tokensregex.TokenSequencePattern;
-import edu.stanford.nlp.parser.lexparser.LexicalizedParser;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.*;
-import edu.stanford.nlp.semgraph.*;
 import edu.stanford.nlp.simple.Sentence;
 import edu.stanford.nlp.simple.Token;
 import edu.stanford.nlp.trees.*;
@@ -25,10 +24,8 @@ import edu.stanford.nlp.trees.tregex.TregexMatcher;
 import edu.stanford.nlp.trees.tregex.TregexPattern;
 import edu.stanford.nlp.util.CoreMap;
 import edu.stanford.nlp.util.IntPair;
-import edu.stanford.nlp.util.StringUtils;
 
 import java.io.File;
-import java.lang.reflect.Array;
 import java.util.*;
 
 public class StanfordParser {
@@ -265,11 +262,31 @@ public class StanfordParser {
                 npList.add(np);
             }
         }
-        //npList.forEach(np->System.out.println(np));
+        npList.forEach(np->System.out.println(np));
         return npList;
     }
 
-    public String getNouns(String thisstring){
+    public List<String> getNounPhrases(List<Tree> parse) {
+        List<String> result = new ArrayList<>();
+        for(Tree tree: parse) {
+            TregexPattern pattern = TregexPattern.compile("@NP");
+            TregexMatcher matcher = pattern.matcher(tree);
+            while (matcher.find()) {
+                Tree match = matcher.getMatch();
+                List<Tree> leaves = match.getLeaves();
+                // System.out.println(leaves);
+                // Some Guava magic.
+                String nounPhrase = Joiner.on(' ').join(Lists.transform(leaves, Functions.toStringFunction()));
+                result.add(nounPhrase);
+                //System.out.println(nounPhrase);
+                //List<LabeledWord> labeledYield = match.labeledYield();
+                // System.out.println("labeledYield: " + labeledYield);
+            }
+        }
+        return result;
+    }
+
+    public List<String> getNouns(String thisstring){
         Properties properties = new Properties();
         properties.put("annotators", "tokenize, ssplit, pos, lemma, ner, parse");
         StanfordCoreNLP pipeline = new StanfordCoreNLP(properties);
@@ -282,16 +299,14 @@ public class StanfordParser {
             TokenSequencePattern tspattern = TokenSequencePattern.compile(regex);
             TokenSequenceMatcher tsmatcher = tspattern.getMatcher(tokens);
             while (tsmatcher.find()) {
-                output.add(tsmatcher.group());
-
+                output.add(tsmatcher.group().toUpperCase());
             }
-
         }
-        String out = output.get(0);
+        /*String out = output.get(0);
         for(int i = 1;i<output.size();i++){
             out+=" "+output.get(i);
-        }
-        return out;
+        }*/
+        return output;
     }
 
     public String getHeadPhrase(String st){
@@ -317,9 +332,22 @@ public class StanfordParser {
         File file = new File("src/main/resources/Data/corpus/annotate/data/unaiza/149144903-HOW-THE-WICKED-SONS-WERE-DUPED-Indian-Writer.txt");
         FileUtilities utilities = new FileUtilities();
         String story = utilities.readFile(file);
-       // String story = "John is a nice guy. I like him!";
+        // String story = "John is a nice guy. I like him!";
          StanfordParser stanfordParser = new StanfordParser();
-        Map<Integer, CorefChain> graph = stanfordParser.coreferenceResolution(story);
+
+         List<Tree> myTree = stanfordParser.parse(story);
+        //List<Tree> np = stanfordParser.mytregex(myTree, "NP");
+        for(Tree tree: myTree) {
+          //  List<String> np = stanfordParser.getNounPhrases(tree);
+        }
+
+
+
+
+
+
+         ///Coreference resolution
+        /*Map<Integer, CorefChain> graph = stanfordParser.coreferenceResolution(story);
         Map<String,List<String>> reference = new HashMap<>();
         for (Map.Entry entry : graph.entrySet()) {
             CorefChain c = (CorefChain) entry.getValue();
@@ -354,6 +382,6 @@ public class StanfordParser {
         }
         System.out.println(reference);
         System.out.println();
-        stanfordParser.coreferenceResolution(story);
+        stanfordParser.coreferenceResolution(story);*/
     }
 }

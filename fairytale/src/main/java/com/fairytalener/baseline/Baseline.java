@@ -13,8 +13,8 @@ import java.util.List;
 
 public class Baseline {
     public static void main(String args[]) {
-        String inputFolder = "src/main/resources/Data/corpus/Test";
-        String outputFolder = "src/main/resources/Data/baseline/test";
+        String inputFolder = "src/main/resources/Data/corpus/hcAnderson";
+        String outputFolder = "src/main/resources/Data/baseline/hcanderson";
 
         StanfordNER(inputFolder,outputFolder);
     }

@@ -66,7 +66,7 @@ public class Rule3NNP {
         File[] files = folder.listFiles();
         for (File file : files) {*/
             FileUtilities utilities = new FileUtilities();
-            File file = new File("src/main/resources/Data/corpus/annotate/data/unaiza/187655076-THE-TALE-OF-THE-FLOPSY-BUNNIES-Beatrix-Potter.txt");
+            File file = new File("src/main/resources/Data/corpus/EvaluationNN/data/unaiza/187655076-THE-TALE-OF-THE-FLOPSY-BUNNIES-Beatrix-Potter.txt");
             String story = utilities.readFile(file);
             StanfordParser stanfordParser = new StanfordParser();
             List<String> tokens = stanfordParser.tokenize(story);

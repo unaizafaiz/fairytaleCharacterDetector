@@ -40,9 +40,9 @@ public class Rule2VAHA {
             relation.add("dobj");
             /**nsubj, nn, nsubjpaas and dobj dependencies only**/
             sentenceProperty.getDependencies().forEach(tdl -> tdl.stream().forEach(typedDependency -> {
-                if(relation.contains(typedDependency.reln().toString())) {
+               // if(relation.contains(typedDependency.reln().toString())) {
                     typedDependencyList.add(typedDependency);
-                }
+               // }
 
             }));
 
@@ -50,7 +50,7 @@ public class Rule2VAHA {
             for (int i = 0; i < typedDependencyList.size(); i++) {
                 TypedDependency typedDependency = typedDependencyList.get(i);
                 String rel = typedDependency.reln().toString();
-               // if (relation.contains(rel)) {
+                 if (relation.contains(rel)) {
                     TypedDependency prevTypedDependency = null;
                     TypedDependency nextTypedDependency = null;
                     if (i > 0)
@@ -91,7 +91,7 @@ public class Rule2VAHA {
                             if (!verbs.contains(verb))
                                 verbs.add(verb);
                         }
-                  //  }
+                    }
                 }
             }
 
@@ -100,7 +100,7 @@ public class Rule2VAHA {
         JWNLUtility jwnlUtility = new JWNLUtility();
         Utility utility = new Utility();
 
-        List<String> dsrVerbs = jwnlUtility.getDRF(verbs);
+        List<String> drfVerbs = jwnlUtility.getDRF(verbs);
        // System.out.println("DSR Verbs: \n\n"+dsrVerbs+"\n");
 
         //Subject Verbs phrases
@@ -109,7 +109,7 @@ public class Rule2VAHA {
         List<String> tempChar = new ArrayList<>();
         System.out.println("Subject Verb characters: ");
         sv_phrases.forEach(tuple -> {
-            if(dsrVerbs.contains(tuple.second)){
+            if(drfVerbs.contains(tuple.second)){
                 String[] temp = tuple.first.split(" ");
                 String noun;
                 if (temp.length>1)
@@ -117,7 +117,7 @@ public class Rule2VAHA {
                 else
                     noun = tuple.first;
                 System.out.println(noun);
-                int threshold = countPhrase(noun,sentences);
+               // int threshold = countPhrase(noun,sentences);
 
                 if(sv_animateBeings.contains(noun.toUpperCase())) {
                 if (!tempChar.contains(tuple.first.toUpperCase()))
@@ -168,7 +168,7 @@ public class Rule2VAHA {
               }
             }
         });
-        characters = utility.addToList(characters,tempChar2);
+       characters = utility.addToList(characters,tempChar2);
         System.out.println();
 
         /*  Map<Integer, CorefChain> graph = stanfordParser.coreferenceResolution(story);

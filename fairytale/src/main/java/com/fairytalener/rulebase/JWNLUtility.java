@@ -46,6 +46,7 @@ public class JWNLUtility {
                             for (Pointer pointer : pointers) {
                                 //System.out.println(pointer.getType());
                                 String temp = pointer.getTarget().toString();
+                               // System.out.println(temp);
                                 //String temp = pointer.toString();
                                 if (temp.contains("a person who")||temp.contains("someone who")||temp.contains("to whom") ||temp.contains("one who")) {
                                     if(!verbs.contains(word))
@@ -85,6 +86,7 @@ public class JWNLUtility {
                             String[] verbFrame = synset.getVerbFrames();
 
                             for (String s : verbFrame) {
+                               // System.out.println(s);
                                 verbFrametoList.add(s);
                             }
                         }
